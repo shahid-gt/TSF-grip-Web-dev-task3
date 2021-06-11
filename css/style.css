@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', cursive;
+    scroll-behavior: smooth;
+}
+.nav{
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    position: absolute;
+}
+.blocks{
+    margin: 18px 5px 0px 5px;
+    padding : 2px 10px 2px 10px ;
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size:25px;
+    border: 3px solid blue;
+    background-color: blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+}
+.blocks:hover{
+  box-shadow: 0 12px 16px 0 rgba(93, 90, 90, 0.518),0 17px 50px 0 rgba(86, 86, 86, 0.59);
+  transform: scale(1.05);
+
+}
+.covidimg{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.number{
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 40%;
+  padding: 2px;
+  background-color: rgb(226,255,94);
+  text-align: center;
+  margin: 15px;
+}
+.stepblockcontainer{
+  background-color: rgb(226, 255, 94);border-radius:20px;height:600px;margin:30 0;
+}
+.stepblock{
+  height: 350px;
+  width: 300px;
+  border: 5px solid rgb(132, 119, 119);
+  border-radius: 20px;
+  background-color: rgb(255, 57, 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.stepblock:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, .4), 0 6px 20px 0 rgba(67, 60, 60, 0.4);
+}
+.text{
+  margin: 10px;
+  padding: 15px;
+  font-size: 25px;
+}
+.donatebtncontainer{
+    width: 50%;
+    text-align: center;
+    height: 700px;
+}
+.donatebtnbackground{
+    position: absolute;
+    text-align: center;
+}
+.div2{
+    position: relative;
+}
+.card{
+  text-align: center;
+}
+.btncontr{
+    background-color: white;
+    color: black;
+    margin: 475 285;
+    padding: 15;
+    font-size: medium;
+}
+.btncontr:hover{
+    background-color: red;
+    color: white;
+}
+.vision{
+    background: linear-gradient(to bottom right, #339933 0%, #99ff33 100%);
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+.visimg{
+    margin-left: 100px;
+}
+.vislabel{
+    font-size: 100px;
+}
+.points{
+    margin: 50px;
+    font-size: 20px;
+    color: #791717;
+}
+
+/* footer style sheet starts from here */
+
+.content1{
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  .content1 p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color:white;
+  }
+  footer{
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover{
+    background: #f12020;
+  }
+  .center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover{
+    background: #f12020;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  .right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+  }
+  .right form .msg{
+    margin-top: 10px;
+  }
+  .right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .right form input:focus,
+  .right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .right form input{
+    height: 35px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .right form .btn button:hover{
+    background: #000;
+  }
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover{
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }
