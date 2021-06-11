@@ -1,0 +1,1 @@
+this task is a part of an internship at spark foundation.in this task the payment gateway integrated inorder to accept the donation from donors.and after successful donation invoice will sent to the donors email and also notify to organization.
